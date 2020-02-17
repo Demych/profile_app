@@ -1,2 +1,4 @@
 test:
+  tags:
+    - ci
   script: cat file1.txt | grep -q 'Hello world'
